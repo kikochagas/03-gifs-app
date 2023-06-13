@@ -16,9 +16,9 @@ export class LazyImageComponent implements OnInit {
   public hasLoaded: boolean = false;
 
   onLoad(): void {
-    setTimeout(() => {
+    // setTimeout(() => {
       this.hasLoaded = true;
-    }, 1000);
+    // }, 1000);
 
   }
 }
